@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* Wrapper for all content */
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Skills Section with Progress Bars */
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+.progress {
+    background-color: #0073e6;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #1d1d1d;
+    color: #f1f1f1;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #333;
+}
+
+body.dark-mode section {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+}
