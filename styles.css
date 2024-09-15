@@ -33,8 +33,10 @@ header {
 
 .profile-photo {
     width: 150px;
-    border-radius: 50%;
+    height: 150px; /* Added to maintain a box shape */
+    border-radius: 10px; /* Adjust to make it a box instead of a circle */
     margin-top: 20px;
+    object-fit: cover; /* Ensures the image covers the box without distortion */
 }
 
 /* Navigation */
