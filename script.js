@@ -1,3 +1,13 @@
+// Loading screen fade-out animation
+window.addEventListener('load', function() {
+    var loadingScreen = document.getElementById('loading-screen');
+    
+    // Add a small delay before fading out (optional)
+    setTimeout(function() {
+        loadingScreen.classList.add('fade-out');
+    }, 300); // Adjust the delay as needed
+});
+
 // Toggle show/hide for job details
 document.getElementById('show-more').addEventListener('click', function() {
     const jobDetails = document.querySelectorAll('.job .job-details');
